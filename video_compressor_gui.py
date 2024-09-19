@@ -129,7 +129,7 @@ class VideoCompressorGUI(QWidget):
         except Exception as e:
             QMessageBox.critical(self, 'Error', f'An error occurred: {str(e)}')
         
-if __name__ == '__main__    ':
+if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = VideoCompressorGUI()
     ex.show()
